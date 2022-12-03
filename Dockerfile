@@ -1,4 +1,4 @@
-FROM node:14.20.0-bullseye-slim
+FROM node:fermium-bullseye-slim
 RUN apt-get update && apt-get install git -y && apt-get install imagemagick -y;
 
 WORKDIR /ecs-app
